@@ -1,0 +1,1641 @@
+@import 'resets';
+@import 'variables';
+
+
+/*Top Background*/
+.top_background                             {background-image: url('../images/background.jpg');
+                                            background-repeat: no-repeat;
+                                            width: 100%;
+                                            height: 100vh;
+                                            background-size: cover;
+
+/*Content6*/
+.content6                                   {padding-top: 15%; 
+                                            padding-bottom: 7%;
+                                            width: 100%; 
+                                            padding-left: 10%;
+                                            padding-right: 10%;
+                                            box-sizing: border-box; 
+
+.content6_header                            {height: 40px;
+                                            width: 100%;
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                        
+.content6_cross                                 {color: $slider-h1-color;
+                                                font-size: 1.5rem;
+                                                margin-left: 1%;
+                                                margin-right: 1%;}
+
+.lines                                          {height: 3px;
+                                                width: 80px;
+                                                background: $slider-h1-color;
+                                                border-radius:3px;}
+                                        
+                                            }
+
+center h1                                       {font-weight: bold;
+                                                font-family: 'Source Sans Pro', sans-serif;
+                                                color: $replace-black;
+                                                margin-bottom: 2%;}
+
+center p                                        {color: $replace-black;
+                                                font-family: 'Averia Sans Libre', cursive;
+                                                margin: 0.5%;}
+
+.register                                       {width: 100%;
+                                                margin-top: 3%;
+    
+.register_form                                      {width: 100%;
+
+form select                                             {width: 103%;
+                                                        height: 30px;
+                                                        margin-top: 20px;
+                                                        font-size: 0.8rem;
+                                                        padding-left: 6px;
+                                                        outline: none;
+                                                        color: gray;
+                                                        border-radius: 8px;
+                                                        box-shadow: 5px 5px 5px #CBCED1, 
+                                                        -5px -5px 5px #FFF;
+                                                        border: 1px solid rgba(154, 153, 154, 0.3);
+
+&::placeholder                                              {color: rgba(154, 153, 154, 0.5);}
+                                                    
+option                                                      {outline: none;
+                                                            border: none;
+                                                            padding-left: 6px;
+                                                            font-size: 0.8rem;
+                                                            color: rgba(154, 153, 154, 0.5);
+                                                            background: white;}
+                                                    
+                                                        }
+
+input                                                   {width: 99.2%;
+                                                        height: 25px;
+                                                        padding-left: 10px;
+                                                        border: 1px solid rgba(154, 153, 154, 0.3);
+                                                        outline: none;
+                                                        color: gray;
+                                                        box-shadow: 5px 5px 5px #CBCED1, 
+                                                        -5px -5px 5px #FFF;
+                                                        font-size: 0.8rem;
+                                                        border-radius: 8px;
+                                                        margin-top: 20px;
+                                                    
+&::placeholder                                              {color: rgba(154, 153, 154, 0.5);}
+                                                    
+                                                        }
+
+
+textarea                                                {width: 99.2%;
+                                                        border: 1px solid rgba(154, 153, 154, 0.3);
+                                                        outline: none;
+                                                        box-shadow: 5px 5px 5px #CBCED1, 
+                                                        -5px -5px 5px #FFF;
+                                                        border-radius: 8px;
+                                                        color: gray;
+                                                        padding-left: 10px;
+                                                        margin-top: 20px;
+                                                    
+&::placeholder                                              {color: rgba(154, 153, 154, 0.5);}
+                                                    
+                                                        }
+
+center                                                  {display: flex;
+                                                        margin-top: 1%;
+                                                        justify-content: center;
+
+#reset1                                                     {width: 100px;
+                                                            margin-right: 1vw;
+                                                            height: 40px;
+                                                            background: grey;
+                                                            box-shadow: 5px 5px 5px #CBCED1, 
+                                                            -5px -5px 5px #FFF;
+                                                            box-sizing: border-box;
+                                                            transition: 0.5s;
+                                                            cursor: pointer;
+                                                            font-weight: bold;
+                                                            font-size: 0.9rem;
+                                                            color: rgba(255, 255, 255, 0.7);
+                                                            border-radius: 15px;
+                                                        
+&:hover                                                         {background: $slider-h1-color;
+                                                                color: white;}
+                                                            
+                                                            }
+
+#submit1                                                    {width: 100px;
+                                                            height: 40px;
+                                                            background: grey;
+                                                            box-shadow: 5px 5px 5px #CBCED1, 
+                                                            -5px -5px 5px #FFF;
+                                                            box-sizing: border-box;
+                                                            transition: 0.5s;
+                                                            cursor: pointer;
+                                                            font-size: 0.9rem;
+                                                            font-weight: bold;
+                                                            color: rgba(255, 255, 255, 0.7);
+                                                            border-radius: 15px;
+                                                        
+&:hover                                                         {background: $slider-h1-color;
+                                                                color: white;}
+                                                        
+                                                            }
+
+                                                        }
+
+                                                    }
+    
+                                                }
+
+
+                                            }
+/*End of Content6*/
+
+/*The Top Container*/
+.top_container                                   {background: rgba(255, 255, 255, 0.95);
+                                                 width: 100%;
+                                                 height: 100%;                                                                        
+                        
+                                                 }
+
+                                            }
+
+.first_header                               {height: 40px;
+                                            width: 100%;
+                                            border-bottom: 1px solid rgba(154, 153, 154, 0.3);
+                                            box-shadow: 0 3px 3px grey;
+                                            padding-top: 3%;
+                                            padding-bottom: 4%;
+                                            display: flex;
+                                            flex-direction: column;
+
+a                                               {text-decoration: none;
+                                                font-family: 'Source Sans Pro', sans-serif;
+                                                transition: 0.1s; color: $replace-black;}
+
+a:hover                                         {transition: 0.2s; color: $slider-h1-color;}
+
+#{&}_contact                                    {display: flex;
+                                                align-items: center;
+                                                justify-content: center;
+                                                height: 100%;
+                                                width: 100%;
+
+.email                                              {font-size: 0.95rem;}
+
+section                                             {display: flex;
+                                                    
+&:last-child                                            {margin-left: 15px;}
+                                                    
+                                                    }
+
+i                                                   {font-size: 1.2rem;
+                                                    margin-right: 5px;
+                                                }
+                                                
+                                                }
+
+#{&}_contact1                                   {display: flex;
+                                                align-items: center;
+                                                width: 100%;
+                                                margin-top: 2%;
+                                                justify-content: center;
+
+span                                               {width: 9%;
+                                                    display: flex;
+                                                    justify-content: center;
+                                                    align-items: center;}
+
+span:not(:first-child)                              {margin-left: 8px;}
+
+i:hover                                            {transition: 0.2s; font-size: 1.3rem;
+                                                    transition: 0.2s; color: $slider-h1-color;}
+
+
+i                                                  {transition: 0.2s; font-size: 1.3rem;
+                                                    transition: 0.2s; color: #201E1E;
+
+&:not(first-child)                                     {}
+                                             
+                                                    
+                                                    }
+
+                                                     
+
+                                                }
+
+                                            }
+/*End of Top Container*/
+
+/*The Second Header*/
+.second_header                              {position: fixed;
+                                            top: 60;
+                                            height: 80px;
+                                            width: 100%;
+                                            z-index: 3000;
+                                            display: grid;
+                                            transition: 0.2s;
+                                            grid-template-columns: repeat(20, 1fr);
+                                            
+/*The Logo*/
+.logo                                           {display: flex;
+                                                height: 80px;
+                                                justify-content: center;
+                                                align-items: center;
+                                                grid-column: 2/8;
+                                                user-select: none;
+
+a                                                   {display: flex;
+                                                    color: $slider-text-color;
+                                                    text-decoration: none;
+                                                    align-items: center;}
+                                                    
+img                                                 {width: 55px;
+                                                    height: 40px;}
+
+.logo_text                                          {margin-left: 20%;
+
+h1                                                      {font-family: 'Averia Sans Libre', cursive;
+                                                        color: #201E1E;}
+                                                    }
+                                                    
+                                                }
+/*End of The Logo*/
+
+/*The Navigation*/
+.navigation                                     {display: none;
+                                                justify-content: center;
+                                                grid-column: 9/15;
+                                                align-items: center;
+                                            
+ul                                                  {list-style: none;
+                                                    display: flex;
+                                                    
+li                                                      {position: relative;
+
+a                                                           {margin-top: 10px;}
+
+&:hover .small_nav                                          {display: block;}
+                                                        
+                                                        }
+                                                    
+li .small_nav                                           {display: none;
+                                                        background: none;
+                                                        position: absolute;
+                                                        }
+                                                
+li:not(:last-child)                                 {margin-right: 4%;}
+
+li a                                                    {text-decoration: none;
+                                                        font-size: 0.95rem;
+                                                        color: $replace-black;
+                                                        display: flex;
+                                                        transition: 0.2s; color: initial;
+                                                        font-family: 'Source Sans Pro', sans-serif;}
+
+li a:hover                                              {transition: 0.2s; color: $slider-h1-color;}
+
+li a i                                                  {margin-left: 5px;}
+
+                                                    }
+                                                }
+/*End of Navigation*/
+
+/*Mobile Hamburger*/
+.mobile_drop                                    {display: flex;
+                                                grid-column: 15/-1;
+                                                align-items: center;
+                                                justify-content: center;
+                                                height: 80px;
+                                            
+.drop_container                                     {display: flex;
+                                                    height: 40px;
+                                                    width: 40px;
+                                                    justify-content: center;
+                                                    flex-direction: column;
+                                                    cursor: pointer;
+                                                    overflow: hidden;
+
+.burger1                                            {height: 5px;
+                                                    border-radius: 5px;
+                                                    width: 15px;
+                                                    background: $replace-black;
+                                                    transition: 0.3s;
+                                                    margin-left: 0;
+                                                    margin-bottom: 5px;}
+
+/*For Toggling on Hamburger Click*/
+
+.burger1i                                           {height: 5px;
+                                                    border-radius: 5px;
+                                                    width: 15px;
+                                                    transition: 0.2s;
+                                                    background: $slider-h1-color;
+                                                    margin-left: 50px;
+                                                    margin-bottom: 5px;}
+
+.burgeri                                            {margin-bottom: 5px;
+                                                    height: 5px;
+                                                    border-radius: 5px;
+                                                    margin-top: 7px;
+                                                    transform: rotate(45deg);
+                                                    width: 30px;
+                                                    transition: 1s;}
+
+.burger2i                                           {height: 5px;
+                                                    border-radius: 5px;
+                                                    width: 30px;
+                                                    margin-top: -19px;
+                                                    transition: 1s;
+                                                    transform: rotate(-45deg);}
+
+/*End of Hamburger Toggle*/
+
+.burger                                             {margin-bottom: 5px;
+                                                    height: 5px;
+                                                    border-radius: 5px;
+                                                    width: 30px;
+                                                    transition: 0.3s;
+                                                    background: $replace-black;}
+
+.burger2                                            {height: 5px;
+                                                    border-radius: 5px;
+                                                    width: 30px;
+                                                    transition: 0.3s;
+                                                    background: $replace-black;}                       
+
+                                                    }
+                                                
+                                                }
+/*End of Hamburger*/
+
+                                            }
+/*End of Second Header*/
+
+/*The Scroll Top*/
+.scroll_top                                 {position: fixed;
+                                            top: 80%;
+                                            right: -50px;
+                                            height: 40px;
+                                            width: 40px;
+                                            border-radius: 50%;
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            background: $replace-black;
+                                            transition: 0.5s;
+                                            user-select: none;
+                                            cursor: pointer;
+                                            outline: 2px solid $replace-black;
+                                            outline-offset: 3px;
+                                            color: white;
+                                            z-index: 3000;
+                                            font-family: 'Courier New', Courier, monospace;
+
+&:hover                                         {outline-offset: 4px;
+                                                background: $slider-h1-color;
+                                                outline: 2px solid $slider-h1-color;}                                                                       
+                                        
+                                            }
+/*End of Scroll Top*/
+
+/*Start of Slider*/
+.slider_container                           {margin-top: 80px;
+                                            box-sizing: border-box;
+                                            padding-top: 3%;
+                                            position: relative;
+
+/*Slider Buttons*/
+.slider_button                                  {width: 100%;
+                                                display: flex;
+                                                justify-content: center;
+                                                align-items: center;
+                                                height: 40px;
+                                                position: absolute;
+                                                top: 85%;
+                                            
+.button1                                        {width: 45px;
+                                                height: 100%;
+                                                color: white;
+                                                cursor: pointer;
+                                                background: $replace-black;
+                                                border: none;}
+
+.button2                                        {width: 45px;
+                                                height: 100%;
+                                                color: white;
+                                                background: none;
+                                                border: none;}
+
+                                                }
+
+.slider_text                                    {width: 100%;
+                                                height: 30px;
+                                                overflow: hidden;
+                                                
+                                           
+.slider_texta                                       {width: 100%;
+                                                    height: 30px;
+                                                    display: grid;
+                                                    grid-template-columns: 30% 70%;
+                                                    box-sizing: border-box;
+                                                    transition: 1s;
+                                                    grid-gap: 27%;
+                                                    padding-left: 5%;
+
+.slider_text1                                           {display: flex;
+                                                        align-items: center;
+                                                        height: 30px;
+                                                        font-weight: bold;
+                                                        font-family: 'Averia Sans Libre', cursive;
+                                                        }
+
+.slider_text2                                           {display: flex;
+                                                        align-items: center;
+                                                        height: 30px;
+                                                        font-weight: bold;
+                                                        font-family: 'Averia Sans Libre', cursive;
+                                                        color: $slider-h1-color;
+                                                        
+                                                        }
+                                                    } 
+                                                    
+.slider_textb                                       {width: 100%;
+                                                    height: 30px;
+                                                    display: grid;
+                                                    transition: 0.5s;
+                                                    grid-template-columns: 30% 70%;
+                                                    box-sizing: border-box;
+                                                    grid-gap: 26%;
+                                                    padding-left: 5%;
+
+
+.slider_text3                                           {display: flex;
+                                                        align-items: center;
+                                                        height: 30px;
+                                                        font-weight: bold;
+                                                        font-family: 'Averia Sans Libre', cursive;}
+
+.slider_text4                                           {display: flex;
+                                                        align-items: center;
+                                                        height: 30px;
+                                                        font-weight: bold;
+                                                        font-family: 'Averia Sans Libre', cursive;
+                                                        color: $slider-h1-color;}
+                                                    }
+                                                    
+.slider_textc                                       {width: 100%;
+                                                    height: 30px;
+                                                    display: grid;
+                                                    transition: 0.5s;
+                                                    grid-template-columns: 30% 70%;
+                                                    box-sizing: border-box;
+                                                    grid-gap: 26%;
+                                                    padding-left: 5%;
+
+.slider_text5                                           {display: flex;
+                                                        align-items: center;
+                                                        height: 30px;
+                                                        font-weight: bold;
+                                                        font-family: 'Averia Sans Libre', cursive;}
+
+.slider_text6                                           {display: flex;
+                                                        align-items: center;
+                                                        height: 30px;
+                                                        font-weight: bold;
+                                                        font-family: 'Averia Sans Libre', cursive;
+                                                        color: $slider-h1-color;}
+                                                    }  
+                                                    
+.slider_textd                                       {width: 100%;
+                                                    height: 30px;
+                                                    display: grid;
+                                                    transition: 0.5s;
+                                                    grid-template-columns: 30% 70%;
+                                                    box-sizing: border-box;
+                                                    grid-gap: 26%;
+                                                    padding-left: 5%;
+
+.slider_text7                                           {display: flex;
+                                                        align-items: center;
+                                                        height: 30px;
+                                                        font-weight: bold;
+                                                        font-family: 'Averia Sans Libre', cursive;}
+
+.slider_text8                                           {display: flex;
+                                                        align-items: center;
+                                                        height: 30px;
+                                                        font-weight: bold;
+                                                        font-family: 'Averia Sans Libre', cursive;
+                                                        color: $slider-h1-color;}
+                                                    } 
+                                                
+                                                } 
+                                                
+/*Slider Flow*/                                             
+.slider_flow                                    {height: 490px;
+                                                padding-left: 5%;
+                                                margin-top: 10px;
+                                                position: relative;
+                                                width: 100%;
+                                                overflow: hidden;
+                                                
+
+.slider_fit                                     {top:0;}
+
+.slider_fit1                                    {top: 490px;}
+.slider_fit2                                    {top: 980px;}
+.slider_fit3                                    {top: 1470px;}
+                                                
+
+.slider_fit, .slider_fit1, .slider_fit2,
+ .slider_fit3                                   {height: 100%;
+                                                grid-template-columns: 50% 50%;
+                                                display: grid;
+                                                width: 83.5%;
+                                                transition: 1s;
+                                                position: absolute;
+                                                box-sizing: border-box;
+                                                grid-gap: 2%;
+                                                
+                                                    
+                                                    
+                                                
+.slider_flow2                                           {background-image: url('../images/pray.jpg');
+                                                        background-repeat: no-repeat;
+                                                        width: 100%;
+                                                        height: 70%;
+                                                        background-size: cover;}
+                                                
+h1                                                      {color: $slider-h1-color;
+                                                        font-family: 'Source Sans Pro', sans-serif;
+                                                        font-size: 2.4rem;}
+    
+p                                                       {margin: 0;
+                                                        font-family: 'Source Sans Pro', sans-serif;
+                                                        font-size: 0.95rem;
+                                                        color: #201E1E;
+                                                        margin-bottom: 2%;   
+                                                        word-spacing: 0.4rem;}
+    
+a                                                       {margin: 0;
+                                                        height: 40px;
+                                                        width: 120px;
+                                                        border: 2px solid $slider-h1-color;
+                                                        display: flex;
+                                                        transition: 0.5s;
+                                                        text-decoration: none;
+                                                        justify-content: center;
+                                                        color: $slider-h1-color;
+                                                        position: absolute;
+                                                        bottom: 0;
+                                                        font-weight: bold;
+                                                        align-items: center;
+                                                        
+    
+&:hover                                                     {background: $slider-h1-color;
+                                                            color: white;} 
+                                                        
+                                                        }
+                                                        
+                                                    
+    
+.slider_flow1                                           {width: 100%;
+                                                        height: 70%;
+                                                        position: relative;
+
+.slider_flow_texta                                          {width: 70%;}                                               
+                                                    
+                                                        }
+                                                        
+                                                        
+.slider_flow4                                           {background-image: url('../images/pray1.jpg');
+                                                        background-repeat: no-repeat;
+                                                        width: 100%;
+                                                        height: 70%;
+                                                        background-size: cover;}
+
+
+.slider_flow3                                           {width: 100%;
+                                                        height: 70%;
+                                                        position: relative;
+    
+.slider_flow_textb                                          {width: 70%;}                                               
+                                                        
+                                                        }
+
+
+.slider_flow6                                           {background-image: url('../images/pray2.jpg');
+                                                        background-repeat: no-repeat;
+                                                        width: 100%;
+                                                        height: 70%;
+                                                        background-size: cover;}
+    
+    
+.slider_flow5                                           {width: 100%;
+                                                        height: 70%;
+                                                        position: relative;
+        
+.slider_flow_textc                                          {width: 70%;}                                               
+                                                            
+                                                        }
+
+
+.slider_flow8                                           {background-image: url('../images/pray1.jpg');
+                                                        background-repeat: no-repeat;
+                                                        width: 100%;
+                                                        height: 70%;
+                                                        background-size: cover;}
+        
+        
+.slider_flow7                                           {width: 100%;
+                                                        height: 70%;
+                                                        position: relative;
+            
+.slider_flow_textd                                          {width: 70%;}                                               
+                                                                
+                                                        }
+                                                            
+                                                        
+    
+                                                    }
+
+                                                
+                                                }
+/*End of Slider Flow*/
+
+                                        
+                                        
+                                            }
+/*End of Slider*/
+
+/*The Content*/
+.content                                    {margin-top: 4%;
+                                            width: 100%;
+                                            box-sizing: border-box;
+                                            position: relative;
+                                            border-bottom: 1px solid rgba(154, 153, 154, 0.3);
+                                            padding-bottom: 7%;
+
+.openme                                         {position: absolute;
+                                                height: 20px;
+                                                z-index: 2000;
+                                                width: 20px;
+                                                border: 1px solid rgba(154, 153, 154, 0.3);
+                                                cursor: pointer;
+                                                background: white;
+                                                bottom: -12px;
+                                                left: 0;
+                                                display: flex;
+                                                justify-content: center;
+                                                align-items: center;
+                                                color: $slider-h1-color;}
+
+#minus                                              {display: none;}
+
+.contenta                                       {
+
+img                                                 {width: 55px;
+                                                    height: 40px;}
+
+.logop                                              {margin-top: 2%;
+                                                    font-family: 'Averia Sans Libre', cursive;
+                                                    color: $replace-black;
+                                                    font-size: 0.95rem;}
+
+.logoh1                                             {color: $slider-h1-color;
+                                                    font-family: 'Source Sans Pro', sans-serif;}
+
+                                                }
+
+.contentb                                       {padding-left: 12%;
+                                                padding-right: 11%;
+                                                display: flex;
+                                                flex-direction: column;
+                                                margin-top: 4%;
+
+.contentb1                                          {display: flex;
+                                                    align-items: center;
+
+.contentb1_text                                         {margin-left: 4%;
+
+.bigger                                                     {font-size: 1.3rem;
+                                                            font-weight: bold;
+                                                            color: $replace-black;
+                                                            margin-bottom: 3%;}
+
+                                                        }
+                                                    
+.contentb1_img                                          {background: $slider-h1-color;
+                                                        height: 100%;
+                                                        padding: 15% 10% 15% 10%;
+                                                        width: 110px;
+                                                        display: flex;
+                                                        justify-content: center;
+                                                        align-items: center;
+                                                        font-size: 300%;
+                                                        color: white;}                                                   
+                                                    
+                                                    }
+
+p                                                   {font-family: 'Averia Sans Libre', cursive;
+                                                    font-size: 0.95rem;
+                                                    color: $replace-black;
+                                                    margin: 1%;}
+
+                                                }
+
+                                            }    
+                                            
+                                            
+.contentb1i                                 {margin-top: 4%;}
+
+.contentb1ii                                {margin-top: 4%;}
+/*End of Content*/
+
+/*The Content2*/            
+.content2                                   {//padding-top: 7%;
+                                            box-sizing: border-box;
+                                            //border-top: 3px solid $slider-h1-color;
+                                            //margin-top: 7%;
+                                            margin-bottom: 0px;
+                                            width: 100%;
+                                            height: 0px;
+                                            overflow: hidden;
+                                            transition: 0.5s;                                         
+                                            
+
+center h1                                       {font-weight: bold;
+                                                font-family: 'Source Sans Pro', sans-serif;
+                                                color: #201E1E;
+                                                margin-bottom: 2%;}
+
+center a                                        {text-decoration: none;
+                                                font-family: 'Averia Sans Libre', cursive;
+                                                color: $slider-h1-color;
+                                                user-select: none;
+                                                font-size: 1.3rem;}
+
+center p                                        {color: #201E1E;
+                                                font-family: 'Averia Sans Libre', cursive;
+                                                margin: 0.5%;}
+                            
+.content2_header                                {height: 40px;
+                                                width: 100%;
+                                                display: flex;
+                                                justify-content: center;
+                                                align-items: center;
+                                            
+.lines                                              {height: 3px;
+                                                    width: 80px;
+                                                    background: $slider-h1-color;
+                                                    border-radius:3px;}   
+                                                    
+.content2_cross                                     {color: $slider-h1-color;
+                                                    font-size: 1.5rem;
+                                                    margin-left: 1%;
+                                                    margin-right: 1%;}
+                                            
+                                                }
+
+.content2_icons                                 {padding-left: 5%;
+                                                padding-right: 5%;
+                                                margin-top: 7%;
+                                                display: flex;
+                                                justify-content: space-around;
+                                            
+.icon1                                              {display: flex;
+                                                    flex-direction: column;
+                                                    justify-content: center;
+                                                    align-items: center;
+                                                    cursor: pointer;
+
+&:hover .icon1i                                         {color: $slider-h1-color}
+&:hover .icon1i1                                        {color: $slider-h1-color}
+
+#icona2                                                 {
+                                                        transition: 1s;}
+
+#icona1, #icona2, #iconb1, #iconb2, #iconc1, 
+#iconc2, #icond1, #icond2, #icone1, #icone2, 
+#iconf1, #iconf2                                        {transition: 1s;}
+                                                
+.icon1i                                                 {font-size: 1.7rem;
+                                                        height: 7.5vh;
+                                                        color: $replace-black;}    
+
+.icon1i1                                                {font-family: 'Source Sans Pro', sans-serif;
+                                                        font-size: 0.9rem;
+                                                        color: $replace-black;}                    
+                                                
+                                                    }  
+                                                        
+                                                }
+
+/*Content2 Slider*/
+.content2_slider                                {margin-top: 7%;
+                                                padding-left: 5%;
+                                                padding-right: 5%;
+                                                width: 100%;
+                                                overflow: hidden;
+                                                box-sizing: border-box;
+                                                display: flex;
+                                            
+.cont2_slider_container                             {width: 800%;
+                                                    display: flex;
+                                                    margin-bottom: 5%;
+                                                
+.content2_slider1                                       {width: 90vw;
+                                                        height: 270px;
+                                                        display: grid;
+                                                        transition: 1s;
+                                                        grid-gap: 2%;
+                                                        grid-template-columns: 1fr 1fr 1fr;
+
+&:not(:last-child)                                          {margin-right: 25vw;}
+
+.content2_slider1i                                          {
+
+.content2_slider1ia                                             {height: 100%;
+                                                                overflow: hidden;
+
+&:hover .hover_color                                                {background: rgba(41, 41, 41, 0.65);}
+                                                            
+.hover_color                                                        {width: 100%;
+                                                                    height: 100%;
+                                                                    transition: 0.5s;
+                                                                    position: relative;
+
+&:hover .hover_text                                                 {left: 0%;}
+                                                                
+.hover_text                                                         {height: 80px;
+                                                                    width: 100%;
+                                                                    top: 40%;
+                                                                    left: -102%;
+                                                                    transition: 0.5s;
+                                                                    position: absolute;
+
+h1                                                                     {color: rgba(255, 255, 255, 0.85);
+                                                                        margin-left: 4%;
+                                                                        font-family: sans-serif;
+                                                                        font-size: 1.3rem;}
+
+p                                                                      {color: rgba(255, 255, 255, 0.85);
+                                                                        font-family: sans-serif;
+                                                                        font-size: 0.7rem;
+                                                                        margin-top: -7%;
+                                                                        margin-left: 4%;}
+
+                                                                    }    
+                                                                
+                                                                    }
+                                                                
+                                                                }
+
+                                                            }
+                                                        
+                                                        }                                               
+                                                    
+                                                    }
+                                            
+                                                }
+
+.give_margin                                    {margin-top: 8%;}
+
+/*For The Slider2 Images*/
+.diff_img4                                      {background-image: url('../images/slider2/1.jpg');
+                                                background-repeat: no-repeat;
+                                                background-size: cover;}
+
+
+.diff_img1                                      {background-image: url('../images/slider2/2.jpg');
+                                                background-repeat: no-repeat;
+                                                background-size: cover;}
+
+.diff_img2                                      {background-image: url('../images/slider2/3.jpg');
+                                                background-repeat: no-repeat;
+                                                background-size: cover;}
+
+.diff_img                                       {background-image: url('../images/slider2/4.jpg');
+                                                background-repeat: no-repeat;
+                                                background-size: cover;}
+
+.diff_img3                                      {background-image: url('../images/slider2/5.jpg');
+                                                background-repeat: no-repeat;
+                                                background-size: cover;}
+
+.diff_img5                                      {background-image: url('../images/slider2/6.jpg');
+                                                background-repeat: no-repeat;
+                                                background-size: cover;}
+
+.diff_img6                                      {background-image: url('../images/slider2/7.jpg');
+                                                background-repeat: no-repeat;
+                                                background-size: cover;}
+
+.diff_img7                                      {background-image: url('../images/slider2/8.jpg');
+                                                background-repeat: no-repeat;
+                                                background-size: cover;}
+
+.diff_img8                                      {background-image: url('../images/pray3.jpg');
+                                                background-repeat: no-repeat;
+                                                background-size: cover;}
+
+.diff_img9                                      {background-image: url('../images/slider2/9.jpg');
+                                                background-repeat: no-repeat;
+                                                background-size: cover;}
+
+.diff_img10                                     {background-image: url('../images/slider2/10.jpg');
+                                                background-repeat: no-repeat;
+                                                background-size: cover;}
+
+.diff_img11                                     {background-image: url('../images/background.jpg');
+                                                background-repeat: no-repeat;
+                                                background-size: cover;}
+
+.diff_img12                                     {background-image: url('../images/slider2/3.jpg');
+                                                background-repeat: no-repeat;
+                                                background-size: cover;}
+
+.diff_img13                                     {background-image: url('../images/pray2.jpg');
+                                                background-repeat: no-repeat;
+                                                background-size: cover;}
+
+.diff_img14                                     {background-image: url('../images/slider2/13.jpg');
+                                                background-repeat: no-repeat;
+                                                background-size: cover;}
+
+.diff_img15                                     {background-image: url('../images/slider2/10.jpg');
+                                                background-repeat: no-repeat;
+                                                background-size: cover;}
+
+.diff_img16                                     {background-image: url('../images/slider2/3.jpg');
+                                                background-repeat: no-repeat;
+                                                background-size: cover;}
+
+.diff_img17                                     {background-image: url('../images/slider2/15.jpg');
+                                                background-repeat: no-repeat;
+                                                background-size: cover;}
+
+.diff_img18                                     {background-image: url('../images/slider2/16.jpg');
+                                                background-repeat: no-repeat;
+                                                background-size: cover;}
+
+.diff_img19                                     {background-image: url('../images/slider2/17.jpg');
+                                                background-repeat: no-repeat;
+                                                background-size: cover;}
+
+.diff_img20                                     {background-image: url('../images/slider2/18.jpg');
+                                                background-repeat: no-repeat;
+                                                background-size: cover;}
+
+.diff_img21                                     {background-image: url('../images/slider2/3.jpg');
+                                                background-repeat: no-repeat;
+                                                background-size: cover;}
+
+.diff_img22                                     {background-image: url('../images/slider2/4.jpg');
+                                                background-repeat: no-repeat;
+                                                background-size: cover;}
+
+.diff_img23                                     {background-image: url('../images/slider2/5.jpg');
+                                                background-repeat: no-repeat;
+                                                background-size: cover;}
+
+.diff_img24                                     {background-image: url('../images/slider2/2.jpg');
+                                                background-repeat: no-repeat;
+                                                background-size: cover;}
+
+.diff_img25                                     {background-image: url('../images/slider2/1.jpg');
+                                                background-repeat: no-repeat;
+                                                background-size: cover;}
+
+.diff_img26                                     {background-image: url('../images/slider2/10.jpg');
+                                                background-repeat: no-repeat;
+                                                background-size: cover;}
+
+.diff_img27                                     {background-image: url('../images/slider2/15.jpg');
+                                                background-repeat: no-repeat;
+                                                background-size: cover;}
+
+.diff_img28                                     {background-image: url('../images/slider2/14.jpg');
+                                                background-repeat: no-repeat;
+                                                background-size: cover;}
+
+.diff_img29                                     {background-image: url('../images/slider2/13.jpg');
+                                                background-repeat: no-repeat;
+                                                background-size: cover;}
+
+.diff_img30                                     {background-image: url('../images/slider2/12.jpg');
+                                                background-repeat: no-repeat;
+                                                background-size: cover;}
+
+.diff_img31                                     {background-image: url('../images/slider2/11.jpg');
+                                                background-repeat: no-repeat;
+                                                background-size: cover;}
+
+.diff_img32                                     {background-image: url('../images/slider2/10.jpg');
+                                                background-repeat: no-repeat;
+                                                background-size: cover;}
+
+.diff_img33                                     {background-image: url('../images/slider2/9.jpg');
+                                                background-repeat: no-repeat;
+                                                background-size: cover;}
+
+.diff_img34                                     {background-image: url('../images/slider2/1.jpg');
+                                                background-repeat: no-repeat;
+                                                background-size: cover;}
+
+.diff_img35                                     {background-image: url('../images/pray.jpg');
+                                                background-repeat: no-repeat;
+                                                background-size: cover;}
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+/*End of Content2 Slider*/
+
+                                            }
+/*End of Content2*/
+
+/*Content3*/
+.content3                                   {width: 100%;
+                                            box-sizing: border-box;
+                                            background-image: url('../images/background3.jpg');
+                                            background-attachment: fixed;
+                                            background-repeat: no-repeat;
+                                            background-size: cover;
+                                            position: relative;
+                                            
+
+.openme1                                        {position: absolute;
+                                                height: 20px;
+                                                z-index: 2000;
+                                                width: 20px;
+                                                border: 1px solid rgba(154, 153, 154, 0.3);
+                                                cursor: pointer;
+                                                background: white;
+                                                bottom: -12.5px;
+                                                left: 0;
+                                                display: flex;
+                                                justify-content: center;
+                                                align-items: center;
+                                                color: $slider-h1-color;
+
+#minus1                                             {display: none;}
+
+                                                }
+
+.content3_container                             {background: rgba(255,255,255, 0.9);
+                                                width: 100%;
+                                                padding-top: 3%;
+                                                padding-bottom: 5%;
+                                                height: 100%;}
+                                        
+center h1                                       {font-weight: bold;
+                                                font-family: 'Source Sans Pro', sans-serif;
+                                                color: #201E1E;
+                                                margin-bottom: 2%;}
+
+center p                                        {color: #201E1E;
+                                                font-family: 'Averia Sans Libre', cursive;
+                                                margin: 0.5%;}
+
+center a                                        {text-decoration: none;
+                                                color: $slider-h1-color;
+                                                font-family: 'Averia Sans Libre', cursive;
+                                                font-size: 1.3rem;}
+                            
+.content3_header                                {height: 40px;
+                                                width: 100%;
+                                                display: flex;
+                                                justify-content: center;
+                                                align-items: center;
+
+.content3_cross                                     {color: $slider-h1-color;
+                                                    font-size: 1.5rem;
+                                                    margin-left: 1%;
+                                                    margin-right: 1%;}
+                                            
+.lines                                              {height: 3px;
+                                                    width: 80px;
+                                                    background: $slider-h1-color;
+                                                    border-radius:3px;} 
+                                            
+                                                }  
+                                                
+.content3_blog                                      {margin-top: 7%;
+                                                    padding-left: 12%;
+                                                    padding-top: 2%;
+                                                    padding-right: 12%;
+                                                    width: 100%;
+                                                    padding-bottom: 7%;
+                                                    overflow: hidden;
+                                                    box-sizing: border-box;
+                                                    display: flex;
+                                                    flex-direction: column;
+                                                
+.blog1                                                  {border-bottom: 3px solid grey;
+                                                        box-shadow: 5px 5px 5px grey, 
+                                                        -5px -5px 5px white;
+                                                        overflow: hidden;
+                                                        position: relative;
+                                                        background: rgba(255, 255, 255, 0.9);
+
+/*Blog Comments*/
+.blog_comment                                               {display: grid;
+                                                            width: 100%;
+                                                            grid-template-columns: 80% 20%;
+                                                            position: relative;
+                                                            margin-top: 9%;
+                                                            bottom: 10px;
+                                                            left: 5%;
+
+.blog_comment_icon                                              {display: flex;
+                                                                color: #858585;}
+                                                        
+.blog_date                                                      {color: #858585;
+                                                                display: flex;
+                                                                font-family: 'Averia Sans Libre', cursive;}                                                        
+                                                        
+                                                            }
+                                                        
+
+/*Blog Images*/
+.blog1_img                                                  {background-image: url('../images/pray1.jpg');
+                                                            background-repeat: no-repeat;
+                                                            background-size: cover;
+                                                            height: 20vh;}
+
+.blog1_img1                                                 {background-image: url('../images/pray2.jpg');
+                                                            background-repeat: no-repeat;
+                                                            background-size: cover;
+                                                            height: 30vh;}
+
+.blog1_img2                                                 {background-image: url('../images/pray.jpg');
+                                                            background-repeat: no-repeat;
+                                                            background-size: cover;
+                                                            height: 30vh;}
+
+.blog1_text                                                 {padding-left: 5%;
+                                                            padding-right: 5%;
+                                                            box-sizing: border-box;
+                                                            margin-top: 10%;
+
+p                                                               {font-family: 'Averia Sans Libre', cursive;
+                                                                color: #858585;
+                                                                text-align: justify;
+                                                                line-height: 1.4rem;
+                                                                font-size: 0.9rem;}
+
+h1                                                              {font-family: 'Source Sans Pro', sans-serif;
+                                                                color: $slider-h1-color;
+                                                                font-weight: bold;
+                                                                font-size: 1.3rem;}
+
+a                                                               {margin-top: 10%;
+                                                                height: 30px;
+                                                                width: 100px;
+                                                                border: 2px solid $slider-h1-color;
+                                                                display: flex;
+                                                                transition: 0.5s;
+                                                                text-decoration: none;
+                                                                justify-content: center;
+                                                                color: $slider-h1-color;
+                                                                font-weight: bold;
+                                                                font-size: 0.85rem;
+                                                                font-family: 'Averia Sans Libre', cursive;
+                                                                align-items: center;
+
+&:hover                                                             {background: $slider-h1-color;
+                                                                    color: white;}
+
+                                                                }
+
+                                                            }   
+
+                                                        }
+                                                
+                                                    }
+
+.blog1i                                             {height: 90%;}
+
+.blog1ii                                            {height: 99%;
+                                                    margin-top: 7%;}
+
+.blog1iii                                           {height: 107%;
+                                                    margin-top: 7%;}
+                                        
+                                        
+                                            }
+/*End of Content3*/
+
+/*Content4*/
+.content4                                   {//padding-top: 7%;
+                                            width: 100%;
+                                            background: #fff;
+                                            border-top: 1px solid rgba(154, 153, 154, 0.3);
+                                            height: 0px;
+                                            overflow: hidden;
+                                            transition: 1s;
+
+
+.content4_text                                  {margin-bottom: 7%;
+                                                padding-left: 7%;
+                                                padding-right: 7%;
+                                                box-sizing: border-box;
+                                            
+center p                                            {font-family: 'Averia Sans Libre', cursive;
+                                                    color: $replace-black;}
+                                                    
+center h1                                           {color: $slider-h1-color;
+                                                    font-family: 'Source Sans Pro', sans-serif;}
+                                                    
+                                             }
+
+.content4_form                                          {display: flex;
+                                                        justify-content: center;
+                                                        align-items: center;
+                                                        margin-top: 5%;
+                                                        
+                                                    
+.form                                                   {height: 70vh;
+                                                        width: 100%;
+                                                        background: #fff;
+                                                        display: flex;
+                                                        justify-content: center;
+                                                        align-items: center;
+                                                        padding-bottom: 3%;
+
+                                                        
+                                                    
+.form1                                                      {width: 100%;
+                                                            height: 80%;
+                                                            background-image: url('../images/ddd.jpg');
+                                                            background-repeat: no-repeat;
+                                                            background-size: cover;
+                                                            box-shadow: 13px 13px 20px #CBCED1, 
+                                                            -13px -13px 20px #fff;
+                                                            border-radius: 10px;
+                                                            overflow: hidden;
+                                                        
+.form2                                                          {height: 100%;
+                                                                width: 100%;
+                                                                background: rgba(41, 41, 41, 0.4);
+                                                                border-radius: 10px;
+                                                                transition: 0.5s;
+                                                                padding-top: 5%;
+                                                            
+&:hover                                                             {background: rgba(41, 41, 41, 0.65);}
+                                                            
+                                                                }
+                                                            
+                                                            }                                                   
+                                                    
+                                                        }
+                                                        
+                                                        }
+                                        
+                                            }
+/*End of Content4*/
+
+/*Content7*/
+.content7                                   {background-image: url('../images/background3.jpg');
+                                            background-repeat: no-repeat;
+                                            background-size: cover;
+                                            background-attachment: fixed;
+                                            box-sizing: border-box;
+                                            margin-top: 5%;
+                                            width: 100%;
+                                            
+
+.content7_cover                                 {background: rgba(255,255,255, 0.9);
+                                                width: 100%;
+                                                padding-bottom: 10%;
+                                                box-sizing: border-box;
+                                                display: flex;
+                                                flex-direction: column;
+                                                height: 100%;
+                                                padding-bottom: 15%;
+                                                padding-top: 10%;
+                                                padding-left: 6%;
+                                                padding-right: 6%;
+                                            
+.content7a                                          {
+
+.content7aimg                                           {width: 100%;
+                                                        height: 30vh;
+                                                        box-shadow: 5px 5px 5px grey, 
+                                                        -5px -5px 5px white;
+
+                                                
+img                                                         {width: 100%;
+                                                            height: 100%;}
+                                                
+                                                        }
+
+.content7a_txt                                          {position: relative;
+                                                        z-index: 2000;
+
+p                                                           {font-family: 'Averia Sans Libre', cursive;
+                                                            color: $replace-black;}
+                                                
+a                                                           {height: 40px;
+                                                            width: 120px;
+                                                            border: 2px solid $slider-h1-color;
+                                                            display: flex;
+                                                            user-select: none;
+                                                            transition: 0.5s;
+                                                            margin-top: 7%;
+                                                            text-decoration: none;
+                                                            justify-content: center;
+                                                            color: $slider-h1-color;
+                                                            font-weight: bold;
+                                                            align-items: center;
+                                                            font-family: 'Averia Sans Libre', cursive;
+                                                    
+&:hover                                                         {background: $slider-h1-color;
+                                                                color: white;}
+                                                        
+                                                            }
+                                                
+                                                        }
+
+
+                                                    }
+
+.content7b                                          { z-index: 2000;
+                                                    margin-top: 7%;
+                                                    box-sizing: border-box;
+
+h1                                                      {color: $slider-h1-color;
+                                                        font-size: 2.8rem;
+                                                        margin-top: 0;
+                                                        font-family: 'Source Sans Pro', sans-serif;
+                                                        width: 60%;}
+
+.content7b_text                                         {background: linear-gradient(to right, rgba(249, 132, 123, 0.95), #FD8473, #FE875F, #FF8855, #FF8B45);
+                                                        height: 100%;
+                                                        width: 100%;
+                                                        box-sizing: border-box;
+                                                        position: relative;
+                                                        padding: 3% 5% 20% 5%;
+                                                        box-shadow: 5px 5px 5px grey, 
+                                                        -5px -5px 5px transparent;
+                                                        box-sizing: border-box;
+
+
+h2                                                          {color: white;
+                                                            font-family: 'Source Sans Pro', sans-serif;}
+                                                    
+p                                                           {word-spacing: 0.5rem;
+                                                            font-size: 1.1rem;
+                                                            color: white;
+                                                            font-family: 'Averia Sans Libre', cursive;}
+
+a                                                           {height: 40px;
+                                                            width: 120px;
+                                                            border: 2px solid white;
+                                                            display: flex;
+                                                            transition: 0.5s;
+                                                            text-decoration: none;
+                                                            justify-content: center;
+                                                            color: white;
+                                                            position: absolute;
+                                                            bottom: 10px;
+                                                            user-select: none;
+                                                            font-weight: bold;
+                                                            align-items: center;
+                                                            font-family: 'Averia Sans Libre', cursive;
+                                                        
+&:hover                                                         {background: white;
+                                                                color: $slider-h1-color;}
+                                                        
+                                                            }
+                                                        
+                                                        }
+                                            
+#keep_writing1                                          {height: 30px;
+                                                        margin-bottom: 0;
+                                                        font-family: 'Averia Sans Libre', cursive;}
+                                            
+                                                    }
+
+                                                }
+
+                                            }
+/*End of Content7*/
+
+/*Content8*/
+.content8                                   {margin-top: 7%;
+                                            padding-left: 5%;
+                                            padding-top: 7%;
+                                            padding-right: 5%;
+                                            box-sizing: border-box;
+                                            padding-bottom: 7%;
+                                            width: 100%;
+                                            
+
+.content8_grid                                  {display: flex;
+                                                flex-direction: column;
+                                            
+.content8a                                          {background-image: url('../images/slider2/3.jpg');
+                                                    background-repeat: no-repeat;
+                                                    background-size: cover;
+                                                    position: relative;
+                                                    overflow: hidden;
+                                                    height: 40vh;
+                                                    width: 100%;
+                                                    box-shadow: 5px 5px 5px grey, 
+                                                    -5px -5px 5px white;
+
+&:hover .content8a_cover                                {height: 100%;
+                                                        width: 100%;
+                                                        background: rgba(41, 41, 41, 0.5);
+                                                        right: 0%;}
+                                                
+.content8a_cover                                        {transition: 0.5s;
+                                                        height: 100%;
+                                                        width: 100%;
+                                                        position: absolute;
+                                                        right: -100%;}
+                                                
+                                                    }
+
+.content8b                                          {box-shadow: 5px 5px 5px grey, 
+                                                    -5px -5px 5px white;
+                                                    background-image: url('../images/background3.jpg');
+                                                    background-repeat: no-repeat;
+                                                    background-size: cover;
+                                                    background-attachment: fixed;
+                                                    margin-top: 5%;
+                                                    box-sizing: border-box;
+
+.content8b_cover                                        {background: rgba(255, 255, 255, 0.9);
+                                                        padding-top: 5%;
+                                                        padding-right: 3%;
+                                                        display: flex;
+                                                        flex-direction: column;
+                                                        align-items: center;
+
+
+span                                                        {font-size: 1.2rem;
+
+
+i                                                           {font-size: 1.3rem;
+                                                            margin-right: 1vw;}
+
+                                                            }
+                                                    
+#keep_writing2                                              {height: 30px;
+                                                            color: $replace-black;
+                                                            margin-top: 0;
+                                                            font-size: 1.2rem;
+                                                            font-family: 'Averia Sans Libre', cursive;}
+
+h1                                                          {font-size: 2.8rem;
+                                                            color: $slider-h1-color;
+                                                            font-family: 'Source Sans Pro', sans-serif;
+                                                            margin-top: -1%;}
+
+h2                                                          {color: $replace-black;
+                                                            font-family: 'Source Sans Pro', sans-serif;}
+
+a                                                           {color: $slider-h1-color;
+                                                            margin-top: 2%;
+                                                            display: flex;
+                                                            user-select: none;
+                                                            text-decoration: none;
+                                                            font-family: 'Averia Sans Libre', cursive;}
+                                                    
+                                                        }
+                                                    
+
+
+                                                
+                                                    }
+                                            
+                                                }
+
+                                            }
+/*End of Content8*/
+
+/*The Big Footer*/
+.big_footer                                 {box-sizing: border-box;
+                                            width: 100%;
+                                            
+
+
+.big_f_cover                                    {height: 100%;
+                                                width: 100%;
+                                                padding: 7% 10% 0 10%;
+                                                background: $top-container-bg;
+                                                background-attachment: fixed;
+                                                box-sizing: border-box;
+
+h2                                                  {color: $slider-h1-color;
+                                                    font-family: 'Source Sans Pro', sans-serif;}
+
+
+.big_footer_grid                                    {display: flex;
+                                                    flex-direction: column;
+                                                    padding-bottom: 5%;
+                                                    box-sizing: border-box;
+                                                    border-top:1px solid rgba(154, 153, 154, 0.3);
+                                                    border-bottom:1px solid rgba(154, 153, 154, 0.3);
+                                                
+.big_footer1                                            {display: flex;
+                                                        flex-direction: column;
+
+&:not(:first-child)                                         {margin-top: 5%;}
+                                                    
+a                                                           {text-decoration: none;
+                                                            margin-top: 7%;
+                                                            color: $replace-black;
+                                                            font-size: 1rem;
+                                                            user-select: none;
+                                                            font-family: 'Averia Sans Libre', cursive;
+                                                        
+i                                                               {font-size: 1.15rem;}
+                                                        
+                                                            }
+
+
+p                                                           {font-size: 1rem;
+                                                            color: $replace-black;
+                                                            margin-top: 0;
+                                                            font-family: 'Averia Sans Libre', cursive;}
+
+.big_footer1a                                               {margin-top: 30px;
+
+span:not(:last-child)                                           {margin-right: 10%;
+                                                                }
+                                                            
+                                                            }
+                                                    
+                                                        }
+                                                
+                                                    }
+
+
+                                                }
+
+                                            }
+/*End of Big Footer*/
+
+/*Small Footer*/
+.small_footer                               {display: flex;
+                                            flex-direction: column;
+                                            justify-content: center;
+                                            align-items: center;
+                                            width: 100%;
+        
+.sfooter1                                       {width: 100%;
+
+.logo                                               {display: flex;
+                                                    justify-content: flex-start;
+                                                    height: 80px;
+                                                    padding-left: 10%;
+                                                    user-select: none;
+
+a                                                       {display: flex;
+                                                        color: $slider-text-color;
+                                                        text-decoration: none;
+                                                        user-select: none;}
+                                                    
+img                                                     {width: 55px;
+                                                        height: 40px;}
+
+.logo_text                                              {margin-left: 20%;
+
+h1                                                          {font-family: 'Averia Sans Libre', cursive;
+                                                            color: #201E1E;}
+                                                        }
+                                                    
+                                                    }
+/*End of The Logo*/
+
+                                                }
+
+.sfooter2                                       {box-sizing: border-box;
+                                                width: 100%;
+                                                margin-top: -6%;
+
+ul                                                  {display: flex;
+                                                    list-style: none;
+                                                    height: 100%;
+
+li                                                      {margin-right: 3%;}
+
+li a                                                    {color: $slider-h1-color;
+                                                        user-select: none;
+                                                        font-family: 'Averia Sans Libre', cursive;
+                                                        text-decoration: none;}
+
+
+                                                    }
+
+                                                }
+        
+        
+                                            }
+/*End of Small Footer*/

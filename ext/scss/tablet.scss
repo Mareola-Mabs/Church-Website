@@ -1,0 +1,122 @@
+@import 'resets';
+@import 'variables';
+
+
+/*Mobile Hamburger*/
+.second_header                              {
+
+.mobile_drop                                    {display: flex;} 
+
+.navigation                                     {display: none;}
+
+
+/*Mobile Hamburger*/
+.mobile_drop                                    {display: flex;
+                                                grid-column: 18/-1;
+                                                align-items: center;
+                                                justify-content: center;
+                                                height: 80px;
+                                                
+                                            
+.drop_container                                     {display: flex;
+                                                    height: 40px;
+                                                    width: 40px;
+                                                    justify-content: center;
+                                                    flex-direction: column;
+                                                    cursor: pointer;
+                                                    overflow: hidden;
+                                                    pointer-events: all;
+
+.burger1                                            {height: 5px;
+                                                    border-radius: 5px;
+                                                    width: 15px;
+                                                    background: $replace-black;
+                                                    transition: 0.3s;
+                                                    margin-left: 0;
+                                                    margin-bottom: 5px;}
+
+/*For Toggling on Hamburger Click*/
+
+.burger1i                                           {height: 5px;
+                                                    border-radius: 5px;
+                                                    width: 15px;
+                                                    transition: 0.2s;
+                                                    background: $slider-h1-color;
+                                                    margin-left: 50px;
+                                                    margin-bottom: 5px;}
+
+.burgeri                                            {margin-bottom: 5px;
+                                                    height: 5px;
+                                                    border-radius: 5px;
+                                                    margin-top: 7px;
+                                                    transform: rotate(45deg);
+                                                    width: 30px;
+                                                    transition: 1s;}
+
+.burger2i                                           {height: 5px;
+                                                    border-radius: 5px;
+                                                    width: 30px;
+                                                    margin-top: -19px;
+                                                    transition: 1s;
+                                                    transform: rotate(-45deg);}
+
+/*End of Hamburger Toggle*/
+
+.burger                                             {margin-bottom: 5px;
+                                                    height: 5px;
+                                                    border-radius: 5px;
+                                                    width: 30px;
+                                                    transition: 0.3s;
+                                                    background: $replace-black;}
+
+.burger2                                            {height: 5px;
+                                                    border-radius: 5px;
+                                                    width: 30px;
+                                                    transition: 0.3s;
+                                                    background: $replace-black;}                       
+
+                                                    }
+                                                
+                                                }
+/*End of Hamburger*/
+
+
+
+                                            }
+/*End of Hamburger*/
+
+/*For Mobile Nav Hidden on PC*/
+.mobile_nav                                 {display: flex;
+                                            position: fixed;
+                                            background: rgba(255, 255, 255, 0.9);
+                                            height: 100vh;
+                                            justify-content: center;
+                                            align-items: center;
+                                            width: 100%;
+                                            right: -100%;
+                                            z-index: 2900;
+                                            transition: 0.5s;
+                                        
+ul                                              {list-style: none;
+
+li                                                  {font-size: 1.3rem;
+                                                    font-family: 'Source Sans Pro', sans-serif;
+                                                
+&:not(:first-child)                                     {margin-top: 10%;}
+                                                
+                                                    }
+        
+li a                                                {text-decoration: none;
+                                                    font-size: 1.3rem;
+                                                    color: $replace-black;
+                                                    transition: 0.5s;
+                                                    font-family: 'Source Sans Pro', sans-serif;
+                                                
+&:hover                                                 {color: $slider-h1-color;}
+                                                
+                                                    }
+                            
+                                                }
+                                        
+                                            }
+/*End of Mobile Nav*/

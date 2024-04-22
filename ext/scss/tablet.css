@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@400;700&family=Averia+Sans+Libre&family=Bubblegum+Sans&family=Dancing+Script:wght@400;500;700&family=Port+Lligat+Sans&family=Source+Sans+Pro:ital,wght@0,200;0,400;0,600;0,700;1,600&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*Mobile Hamburger*/
+.second_header {
+  /*Mobile Hamburger*/
+  /*End of Hamburger*/
+}
+.second_header .mobile_drop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.second_header .navigation {
+  display: none;
+}
+.second_header .mobile_drop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  grid-column: 18/-1;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 80px;
+}
+.second_header .mobile_drop .drop_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 40px;
+  width: 40px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  cursor: pointer;
+  overflow: hidden;
+  pointer-events: all;
+  /*For Toggling on Hamburger Click*/
+  /*End of Hamburger Toggle*/
+}
+.second_header .mobile_drop .drop_container .burger1 {
+  height: 5px;
+  border-radius: 5px;
+  width: 15px;
+  background: #201E1E;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  margin-left: 0;
+  margin-bottom: 5px;
+}
+.second_header .mobile_drop .drop_container .burger1i {
+  height: 5px;
+  border-radius: 5px;
+  width: 15px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  background: #FF812F;
+  margin-left: 50px;
+  margin-bottom: 5px;
+}
+.second_header .mobile_drop .drop_container .burgeri {
+  margin-bottom: 5px;
+  height: 5px;
+  border-radius: 5px;
+  margin-top: 7px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  width: 30px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+.second_header .mobile_drop .drop_container .burger2i {
+  height: 5px;
+  border-radius: 5px;
+  width: 30px;
+  margin-top: -19px;
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+.second_header .mobile_drop .drop_container .burger {
+  margin-bottom: 5px;
+  height: 5px;
+  border-radius: 5px;
+  width: 30px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  background: #201E1E;
+}
+.second_header .mobile_drop .drop_container .burger2 {
+  height: 5px;
+  border-radius: 5px;
+  width: 30px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  background: #201E1E;
+}
+
+/*End of Hamburger*/
+/*For Mobile Nav Hidden on PC*/
+.mobile_nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  background: rgba(255, 255, 255, 0.9);
+  height: 100vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  right: -100%;
+  z-index: 2900;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.mobile_nav ul {
+  list-style: none;
+}
+.mobile_nav ul li {
+  font-size: 1.3rem;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.mobile_nav ul li:not(:first-child) {
+  margin-top: 10%;
+}
+.mobile_nav ul li a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: #201E1E;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.mobile_nav ul li a:hover {
+  color: #FF812F;
+}
+
+/*End of Mobile Nav*//*# sourceMappingURL=tablet.css.map */

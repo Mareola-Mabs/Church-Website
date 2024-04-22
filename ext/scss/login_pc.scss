@@ -1,0 +1,498 @@
+@import 'resets';
+@import 'variables';
+
+/*The Scrollbar*/
+::-webkit-scrollbar                         {width: auto;}
+
+::-webkit-scrollbar-track                   {background: #D6D8D5;}
+
+::-webkit-scrollbar-thumb                   {background: #201E1E;
+                                            transition: 0.5s;}
+
+::-webkit-scrollbar-thumb:hover             {background: $slider-h1-color;}
+
+/*End of Scrollbar*/
+
+/*Top Background*/
+.top_background                             {background-image: url('../images/background.jpg');
+                                            background-repeat: no-repeat;
+                                            width: 100%;
+                                            height: 100vh;
+                                            background-size: cover;
+
+/*The Register Div*/
+.register                                   {height: 100%;
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            width: 100%;
+                                        
+#submit1                                        {height: 35px;
+                                                width: 70%;
+                                                background: $slider-h1-color;
+                                                border: none;
+                                                cursor: pointer;
+                                                margin-top: 40px;
+                                                margin-bottom: 10%;
+                                                box-shadow: 5px 5px 5px #CBCED1, 
+                                                -5px -5px 5px #FFF;
+                                                box-sizing: border-box;
+                                                transition: 0.5s;
+                                                font-weight: bold;
+                                                color: rgba(255, 255, 255, 1.0);
+                                                border-radius: 15px;}
+
+.register_form                                  {width: 320px;
+                                                height: 520px;
+                                                margin-bottom: 1%;
+                                                padding: 30px 0 5% 0;
+                                                background: $register_background;
+                                                border-radius: 25px;
+                                                box-sizing: border-box;
+                                                overflow: hidden;
+                                                box-shadow: 13px 13px 13px #CBCED1, 
+                                                -13px -13px 20px #FFF;}
+
+a                                                   {text-decoration: underline;
+                                                    color: $slider-h1-color;
+                                                    font-family: 'Source Sans Pro', sans-serif;
+                                                    font-size: 0.9rem;
+                                                    text-shadow: 1px 1px 2px grey; 
+                                                    margin-left: 10%;}
+
+center p                                            {font-family: 'Source Sans Pro', sans-serif;
+                                                    margin-top: 10px;
+                                                    font-size: 1.3rem;
+                                                    color: $slider-h1-color;
+                                                    text-shadow: 1px 1px 2px grey; 
+                                                    font-weight: bold;}
+
+center .register_logo                               {width: 75px;
+                                                    height: 70px;
+                                                    display: flex;
+                                                    justify-content: center;
+                                                    align-items: center;
+                                                    box-shadow: 6px 6px 8px #CBCED1, 
+                                                    -6px -6px 8px #FFF;
+                                                    border-radius: 50%;}
+
+input                                                   {margin-top: 10%;
+                                                        background: $register_background;
+                                                        outline: none;
+                                                        box-shadow: inset 8px 8px 8px #CBCED1, 
+                                                        inset -8px -8px 8px #FFF;
+                                                        border-radius: 20px;
+                                                        height: 40px;
+                                                        width: 80%;
+                                                        color: gray;
+                                                        padding-left: 5%;
+                                                        box-sizing: border-box;
+                                                        font-family: 'Source Sans Pro', sans-serif;
+                                                        border: none;
+                                                    
+&::placeholder                                              {color: rgba(154, 153, 154, 0.5);}
+                                                    
+                                                        }
+
+select                                                  {margin-top: 10%;
+                                                        background: $register_background;
+                                                        outline: none;
+                                                        box-shadow: inset 8px 8px 8px #CBCED1, 
+                                                        inset -8px -8px 8px #FFF;
+                                                        border-radius: 20px;
+                                                        height: 40px;
+                                                        color: gray;
+                                                        font-family: 'Source Sans Pro', sans-serif;
+                                                        width: 80%;
+                                                        padding-left: 5%;
+                                                        box-sizing: border-box;
+                                                        border: none;
+                                                    
+option                                                      {border: none;
+                                                            background: white;
+                                                            padding-left: 5%;
+                                                            box-sizing: border-box;
+                                                            color: rgba(154, 153, 154, 0.5);
+                                                            font-family: 'Source Sans Pro', sans-serif;
+                                                            outline: none;}
+                                                    
+                                                        }
+                                        
+                                            }
+/*End of Register Div*/
+
+/*The Top Container*/
+.top_container                                  {background: rgba(236, 240, 243, 0.95);
+                                                width: 100%;
+                                                height: 100%;                                                                        
+                        
+                                                }
+
+                                            }
+
+.first_header                               {height: 40px;
+                                            width: 100%;
+                                            box-shadow: 0 3px 3px grey;
+                                            border-bottom: 1px solid rgba(154, 153, 154, 0.3);
+                                            display: grid;
+                                            grid-template-columns: repeat(11, 1fr);
+
+a                                               {text-decoration: none;
+                                                user-select: none;
+                                                font-family: 'Source Sans Pro', sans-serif;
+                                                transition: 0.1s; color: $replace-black;}
+
+a:hover                                         {transition: 0.2s; color: $slider-h1-color;}
+
+#{&}_contact                                    {grid-column: 3/6;
+                                                display: flex;
+                                                align-items: center;
+                                                height: 100%;
+
+.email                                              {font-size: 0.95rem;}
+
+section                                             {display: flex;
+                                                    
+&:last-child                                            {margin-left: 15px;}
+                                                    
+                                                    }
+
+i                                                   {font-size: 1.2rem;
+                                                    margin-right: 5px;
+                                                }
+                                                
+                                                }
+
+#{&}_contact1                                   {grid-column: 8/-1;
+                                                display: flex;
+                                                align-items: center;
+                                                height: 100%;
+
+span                                               {width: 9%;
+                                                    display: flex;
+                                                    justify-content: center;
+                                                    align-items: center;}
+
+span:not(:first-child)                              {margin-left: 8px;}
+
+i:hover                                            {transition: 0.2s; font-size: 1.4rem;
+                                                    transition: 0.2s; color: $slider-h1-color;}
+
+
+i                                                  {transition: 0.2s; font-size: 1.3rem;
+                                                    transition: 0.2s; color: #201E1E;
+
+&:not(first-child)                                     {}
+                                             
+                                                    
+                                                    }
+
+                                                     
+
+                                                }
+
+                                            }
+/*End of Top Container*/
+
+/*The Second Header*/
+.second_header                              {position: fixed;
+                                            top: 40;
+                                            height: 80px;
+                                            width: 100%;
+                                            z-index: 3000;
+                                            display: grid;
+                                            transition: 0.2s;
+                                            grid-template-columns: repeat(20, 1fr);
+                                            
+/*The Logo*/
+.logo                                           {display: flex;
+                                                height: 80px;
+                                                justify-content: center;
+                                                align-items: center;
+                                                grid-column: 2/8;
+                                                user-select: none;
+
+a                                                   {display: flex;
+                                                    user-select: none;
+                                                    color: $slider-text-color;
+                                                    text-decoration: none;
+                                                    align-items: center;}
+                                                    
+img                                                 {width: 55px;
+                                                    height: 40px;}
+
+.logo_text                                          {margin-left: 20%;
+
+h1                                                      {font-family: 'Averia Sans Libre', cursive;
+                                                        color: #201E1E;}
+                                                    }
+                                                    
+                                                }
+/*End of The Logo*/
+
+/*The Navigation*/
+.navigation                                     {display: flex;
+                                                justify-content: center;
+                                                grid-column: 9/15;
+                                                align-items: center;
+                                            
+ul                                                  {list-style: none;
+                                                    display: flex;
+                                                    
+li                                                      {position: relative;
+
+a                                                           {margin-top: 10px;}
+
+&:hover .small_nav                                          {display: block;}
+                                                        
+                                                        }
+                                                    
+li .small_nav                                           {display: none;
+                                                        background: none;
+                                                        position: absolute;
+                                                        }
+                                                
+li:not(:last-child)                                 {margin-right: 4%;}
+
+li a                                                    {text-decoration: none;
+                                                        font-size: 0.95rem;
+                                                        color: $replace-black;
+                                                        display: flex;
+                                                        user-select: none;
+                                                        transition: 0.2s; color: initial;
+                                                        font-family: 'Source Sans Pro', sans-serif;}
+
+li a:hover                                              {transition: 0.2s; color: $slider-h1-color;}
+
+li a i                                                  {margin-left: 5px;}
+
+                                                    }
+                                                }
+/*End of Navigation*/
+
+/*Mobile Hamburger*/
+.mobile_drop                                    {display: flex;
+                                                grid-column: 18/-1;
+                                                align-items: center;
+                                                justify-content: center;
+                                                height: 80px;
+                                                
+                                            
+.drop_container                                     {display: flex;
+                                                    height: 40px;
+                                                    width: 40px;
+                                                    justify-content: center;
+                                                    flex-direction: column;
+                                                    cursor: pointer;
+                                                    overflow: hidden;
+                                                    pointer-events: none;
+
+.burger1                                            {height: 5px;
+                                                    border-radius: 5px;
+                                                    width: 15px;
+                                                    background: $replace-black;
+                                                    transition: 0.3s;
+                                                    margin-left: 0;
+                                                    margin-bottom: 5px;}
+
+/*For Toggling on Hamburger Click*/
+
+.burger1i                                           {height: 5px;
+                                                    border-radius: 5px;
+                                                    width: 15px;
+                                                    transition: 0.2s;
+                                                    background: $slider-h1-color;
+                                                    margin-left: 50px;
+                                                    margin-bottom: 5px;}
+
+.burgeri                                            {margin-bottom: 5px;
+                                                    height: 5px;
+                                                    border-radius: 5px;
+                                                    margin-top: 7px;
+                                                    transform: rotate(45deg);
+                                                    width: 30px;
+                                                    transition: 1s;}
+
+.burger2i                                           {height: 5px;
+                                                    border-radius: 5px;
+                                                    width: 30px;
+                                                    margin-top: -19px;
+                                                    transition: 1s;
+                                                    transform: rotate(-45deg);}
+
+/*End of Hamburger Toggle*/
+
+.burger                                             {margin-bottom: 5px;
+                                                    height: 5px;
+                                                    border-radius: 5px;
+                                                    width: 30px;
+                                                    transition: 0.3s;
+                                                    background: $replace-black;}
+
+.burger2                                            {height: 5px;
+                                                    border-radius: 5px;
+                                                    width: 30px;
+                                                    transition: 0.3s;
+                                                    background: $replace-black;}                       
+
+                                                    }
+                                                
+                                                }
+/*End of Hamburger*/
+
+                                            }
+/*End of Second Header*/
+
+/*The Scroll Top*/
+.scroll_top                                 {position: fixed;
+                                            top: 80%;
+                                            right: -50px;
+                                            height: 40px;
+                                            width: 40px;
+                                            border-radius: 50%;
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            background: $replace-black;
+                                            transition: 0.5s;
+                                            user-select: none;
+                                            cursor: pointer;
+                                            outline: 2px solid $replace-black;
+                                            outline-offset: 3px;
+                                            color: white;
+                                            
+                                            z-index: 3000;
+                                            font-family: 'Courier New', Courier, monospace;
+
+&:hover                                         {outline-offset: 4px;
+                                                background: $slider-h1-color;
+                                                outline: 2px solid $slider-h1-color;}                                                                       
+                                        
+                                            }
+/*End of Scroll Top*/
+
+/*The Big Footer*/
+.big_footer                                 {box-sizing: border-box;
+                                            width: 100%;
+                                            
+
+
+.big_f_cover                                    {height: 100%;
+                                                width: 100%;
+                                                padding: 7% 10% 0 10%;
+                                                background: $top-container-bg;
+                                                background-attachment: fixed;
+                                                box-sizing: border-box;
+
+h2                                                  {color: $slider-h1-color;
+                                                    font-family: 'Source Sans Pro', sans-serif;}
+
+
+.big_footer_grid                                    {grid-template-columns: 1fr 1fr 1fr 1fr;
+                                                    grid-gap: 5%;
+                                                    display: grid;
+                                                    padding-bottom: 5%;
+                                                    box-sizing: border-box;
+                                                    border-top:1px solid rgba(154, 153, 154, 0.3);
+                                                    border-bottom:1px solid rgba(154, 153, 154, 0.3);
+                                                
+.big_footer1                                            {display: flex;
+                                                        flex-direction: column;
+
+.move                                                       {margin-right: 2vw;}
+                                                    
+a                                                           {text-decoration: none;
+                                                            margin-top: 7%;
+                                                            color: $replace-black;
+                                                            font-size: 1rem;
+                                                            user-select: none;
+                                                            font-family: 'Averia Sans Libre', cursive;
+                                                        
+i                                                               {font-size: 1.15rem;}
+                                                        
+                                                            }
+
+
+p                                                           {font-size: 1rem;
+                                                            color: $replace-black;
+                                                            margin-top: 0;
+                                                            font-family: 'Averia Sans Libre', cursive;}
+
+.big_footer1a                                               {margin-top: 60px;
+
+span:not(:last-child)                                           {margin-right: 10%;
+                                                                }
+                                                            
+                                                            }
+                                                    
+                                                        }
+                                                
+                                                    }
+
+
+                                                }
+
+                                            }
+/*End of Big Footer*/
+
+/*Small Footer*/
+.small_footer                               {display: grid;
+                                            grid-template-columns: repeat(15, 1fr);
+                                            width: 100%;
+        
+.sfooter1                                       {grid-column: 1/5;
+
+.logo                                               {display: flex;
+                                                    height: 80px;
+                                                    justify-content: center;
+                                                    align-items: center;
+                                                    grid-column: 2/8;
+                                                    user-select: none;
+
+a                                                       {display: flex;
+                                                        color: $slider-text-color;
+                                                        text-decoration: none;
+                                                        user-select: none;
+                                                        align-items: center;}
+                                                    
+img                                                     {width: 55px;
+                                                        height: 40px;}
+
+.logo_text                                              {margin-left: 20%;
+
+h1                                                          {font-family: 'Averia Sans Libre', cursive;
+                                                            color: #201E1E;}
+                                                        }
+                                                    
+                                                    }
+/*End of The Logo*/
+
+                                                }
+
+.sfooter2                                       {grid-column: 10/-1;
+                                                padding: 2% 0 2% 0;
+                                                box-sizing: border-box;
+
+ul                                                  {display: flex;
+                                                    list-style: none;
+                                                    height: 100%;
+
+li                                                      {margin-right: 3%;}
+
+li a                                                    {color: $slider-h1-color;
+                                                        user-select: none;
+                                                        font-family: 'Averia Sans Libre', cursive;
+                                                        text-decoration: none;}
+
+
+                                                    }
+
+                                                }
+        
+        
+                                            }
+/*End of Small Footer*/
+
+/*The Mobile Nav Hidden on PC*/
+.mobile_nav                                 {display: none;}
+/*End of Mobile Nav Hidden on PC*/

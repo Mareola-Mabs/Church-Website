@@ -1,0 +1,297 @@
+@import 'resets';
+@import 'variables';
+
+
+/*Mobile Hamburger*/
+.second_header                              {
+
+.mobile_drop                                    {display: flex;} 
+
+.navigation                                     {display: none;}
+
+
+/*Mobile Hamburger*/
+.mobile_drop                                    {display: flex;
+                                                grid-column: 18/-1;
+                                                align-items: center;
+                                                justify-content: center;
+                                                height: 80px;
+                                                
+                                            
+.drop_container                                     {display: flex;
+                                                    height: 40px;
+                                                    width: 40px;
+                                                    justify-content: center;
+                                                    flex-direction: column;
+                                                    cursor: pointer;
+                                                    overflow: hidden;
+                                                    pointer-events: all;
+
+.burger1                                            {height: 5px;
+                                                    border-radius: 5px;
+                                                    width: 15px;
+                                                    background: $replace-black;
+                                                    transition: 0.3s;
+                                                    margin-left: 0;
+                                                    margin-bottom: 5px;}
+
+/*For Toggling on Hamburger Click*/
+
+.burger1i                                           {height: 5px;
+                                                    border-radius: 5px;
+                                                    width: 15px;
+                                                    transition: 0.2s;
+                                                    background: $slider-h1-color;
+                                                    margin-left: 50px;
+                                                    margin-bottom: 5px;}
+
+.burgeri                                            {margin-bottom: 5px;
+                                                    height: 5px;
+                                                    border-radius: 5px;
+                                                    margin-top: 7px;
+                                                    transform: rotate(45deg);
+                                                    width: 30px;
+                                                    transition: 1s;}
+
+.burger2i                                           {height: 5px;
+                                                    border-radius: 5px;
+                                                    width: 30px;
+                                                    margin-top: -19px;
+                                                    transition: 1s;
+                                                    transform: rotate(-45deg);}
+
+/*End of Hamburger Toggle*/
+
+.burger                                             {margin-bottom: 5px;
+                                                    height: 5px;
+                                                    border-radius: 5px;
+                                                    width: 30px;
+                                                    transition: 0.3s;
+                                                    background: $replace-black;}
+
+.burger2                                            {height: 5px;
+                                                    border-radius: 5px;
+                                                    width: 30px;
+                                                    transition: 0.3s;
+                                                    background: $replace-black;}                       
+
+                                                    }
+                                                
+                                                }
+/*End of Hamburger*/
+
+
+
+                                            }
+/*End of Hamburger*/
+
+/*For Mobile Nav Hidden on PC*/
+.mobile_nav                                 {display: flex;
+                                            position: fixed;
+                                            background: rgba(255, 255, 255, 0.9);
+                                            height: 100vh;
+                                            justify-content: center;
+                                            align-items: center;
+                                            width: 100%;
+                                            right: -100%;
+                                            z-index: 2900;
+                                            transition: 0.5s;
+                                        
+ul                                              {list-style: none;
+
+li                                                  {font-size: 1.3rem;
+                                                    font-family: 'Source Sans Pro', sans-serif;
+                                                
+&:not(:first-child)                                     {margin-top: 10%;}
+                                                
+                                                    }
+        
+li a                                                {text-decoration: none;
+                                                    font-size: 1.3rem;
+                                                    color: $replace-black;
+                                                    transition: 0.5s;
+                                                    font-family: 'Source Sans Pro', sans-serif;
+                                                
+&:hover                                                 {color: $slider-h1-color;}
+                                                    
+                                                    }
+                            
+                                                }
+                                        
+                                            }
+/*End of Mobile Nav*/
+
+
+/*The Blog Container*/
+.top_background                             {
+
+
+/*The Container For Blogs*/
+.blog_container                                 {width: 100%;
+                                                padding-top: 5%;
+                                                box-sizing: border-box;
+                                                width: 50%;
+                                                margin: 0 auto;
+                                                display: flex;
+                                                flex-direction: column;
+                                            
+.blog                                               {border-bottom: 3px solid grey;
+                                                    box-shadow: 10px 10px 15px grey, 
+                                                    -10px -10px 10px white;
+                                                    margin-bottom: 30vh;
+                                                    box-sizing: border-box;
+                                                    overflow: hidden;
+                                                    background: white;
+                                                    position: relative;
+                                                
+&_img                                                   {width: 100%;
+                                                        height: 400px;
+                                                    
+img                                                         {width: 100%;
+                                                            height: 100%;}
+                                                    
+                                                        }
+
+&_admin                                                 {width: 100%;
+                                                        padding-left: 5%;
+                                                        padding-right: 5%;
+                                                        box-sizing: border-box;
+                                                        display: grid;
+                                                        margin-bottom: -10px;
+                                                        margin-top: 20px;
+                                                        height: 61px;
+                                                        padding-top: 5px;
+                                                        padding-bottom: 5px;
+                                                        gap: 20px;
+                                                        grid-template-columns: 10% 90%;
+                                                    
+&-img                                                       {width: 100%;
+                                                            height: 100%;
+                                                        
+img                                                             {width: 50px;
+                                                                border-radius: 50%;
+                                                                box-shadow: 2px 2px 4px grey, 
+                                                                -2px -2px 4px white;
+                                                                height: 50px;}
+                                                            
+                                                            }
+
+&-text                                                  {width: 100%;
+                                                        height: 100%;
+                                                        display: flex;
+                                                        flex-direction: column;
+                                                        justify-content: center;
+                                                    
+h4                                                          {margin: 0;
+                                                            color: $slider-h1-color;
+                                                            font-family: 'Source Sans Pro', sans-serif;
+                                                            text-shadow: 1px 1px 2px #A86031;}
+
+small                                                       {margin: 0;
+                                                            text-shadow: 1px 1px 2px grey;}
+                                                    
+                                                        }
+                                                    
+                                                        }
+
+&_text                                                  {padding-left: 5%;
+                                                        padding-right: 5%;
+                                                        box-sizing: border-box;
+                                                        margin-top: 10px;
+                                                    
+h1                                                          {font-family: 'Source Sans Pro', sans-serif;
+                                                            color: $slider-h1-color;
+                                                            font-weight: bold;
+                                                            font-size: 2rem;}
+
+p                                                           {font-family: 'Averia Sans Libre', cursive;
+                                                            color: #858585;
+                                                            text-align: justify;
+                                                            line-height: 1.4rem;
+                                                            font-size: 0.9rem;}
+                                                    
+                                                        }
+
+&_comment                                               {display: grid;
+                                                        width: 100%;
+                                                        height: 30px;
+                                                        padding: 0 5%;
+                                                        grid-template-columns: 80% 20%;
+                                                    
+.blog_date                                                  {display: flex;
+                                                            color: #373435;
+                                                            font-family: 'Averia Sans Libre', cursive;
+                                                            width: 100%;}
+
+.blog_comment-icon                                          {display: flex;
+                                                            color: #373435;
+                                                            align-items: center;
+                                                            font-family: 'Averia Sans Libre', cursive;
+                                                            width: 100%;}
+                                                    
+                                                        }
+
+&_comment2                                              {width: 100%;
+                                                        padding: 0 5%;
+                                                        margin-bottom: 10px;
+                                                        height: 50px;
+                                                        margin-top: 20px;
+                                                        align-items: center;
+                                                        gap: 30px;
+                                                        padding-top: 5px;
+                                                        padding-bottom: 5px;
+                                                        display: grid;grid-template-columns: 10% 80%;
+                                                    
+.blog_comment2-user-img                                     {width: 100%;
+                                                            height: 100%;
+                                                        
+img                                                             {width: 50px;
+                                                                border-radius: 50%;
+                                                                height: 50px;}
+                                                            
+                                                            }
+
+form                                                        {width: 100%;
+                                                            display: flex;
+                                                            align-items: center;
+                                                            gap: 5%;
+                                                            height: 100%;
+
+#comment_text                                               {width: 55%;
+                                                            height: 24px;
+                                                            border: none;
+                                                            outline: 2px solid #FFAB74;
+                                                            border-radius: 5px;
+                                                            color: #858585;
+
+&::placeholder                                                  {color: #FFAB74;}
+                                                        
+&:focus                                                         {outline: 2px solid $slider-h1-color;
+                                                                border: none;}
+                                                        
+                                                            }
+
+#submit_comment                                             {width: 30%;
+                                                            height: 30px;
+                                                            cursor: pointer;
+                                                            border: none;
+                                                            background: $slider-h1-color;
+                                                            color: white;
+                                                            border-radius: 5px;
+                                                            transition: 0.5s;
+                                                        
+&:hover                                                         {font-size: 0.9rem;}
+                                                        
+                                                            }
+
+                                                            }
+                                                    
+                                                        }
+                                                
+                                                    }
+                                            
+                                                }
+/*End of Container For Blogs*/
+
+                                            }
+/*End of Top Container*/
